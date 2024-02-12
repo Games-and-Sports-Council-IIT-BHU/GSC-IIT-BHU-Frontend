@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar/Navbar";
 import TeamCard from "../components/TeamCard";
-
+import cricket from "../assets/cricket.png"
 function Sports() {
   const [scrolling, setScrolling] = useState(false);
   const data = [
     {
       name: "Cricket",
-      imageUrl: "https://c8.alamy.com/comp/CC2TRA/cricket-player-batting-CC2TRA.jpg",
+      imageUrl: cricket,
       email: "john.doe@example.com",
       instagram: "john_doe_instagram",
       linkedin: "john_doe_linkedin",
@@ -15,7 +15,7 @@ function Sports() {
       facebook:"facebook"
     },{
       name: "Cricket",
-      imageUrl: "https://c8.alamy.com/comp/CC2TRA/cricket-player-batting-CC2TRA.jpg",
+      imageUrl: cricket,
       email: "john.doe@example.com",
       instagram: "john_doe_instagram",
       linkedin: "john_doe_linkedin",
@@ -23,7 +23,7 @@ function Sports() {
       facebook:"facebook"
     },{
       name: "Cricket",
-      imageUrl: "https://c8.alamy.com/comp/CC2TRA/cricket-player-batting-CC2TRA.jpg",
+      imageUrl: cricket,
       email: "john.doe@example.com",
       instagram: "john_doe_instagram",
       linkedin: "john_doe_linkedin",
@@ -31,7 +31,7 @@ function Sports() {
       facebook:"facebook"
     },{
       name: "Cricket",
-      imageUrl: "https://c8.alamy.com/comp/CC2TRA/cricket-player-batting-CC2TRA.jpg",
+      imageUrl: cricket,
       email: "john.doe@example.com",
       instagram: "john_doe_instagram",
       linkedin: "john_doe_linkedin",
@@ -39,7 +39,87 @@ function Sports() {
       facebook:"facebook"
     },{
       name: "Cricket",
-      imageUrl: "https://c8.alamy.com/comp/CC2TRA/cricket-player-batting-CC2TRA.jpg",
+      imageUrl: cricket,
+      email: "john.doe@example.com",
+      instagram: "john_doe_instagram",
+      linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
+    },{
+      name: "Cricket",
+      imageUrl: cricket,
+      email: "john.doe@example.com",
+      instagram: "john_doe_instagram",
+      linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
+    },{
+      name: "Cricket",
+      imageUrl: cricket,
+      email: "john.doe@example.com",
+      instagram: "john_doe_instagram",
+      linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
+    },{
+      name: "Cricket",
+      imageUrl: cricket,
+      email: "john.doe@example.com",
+      instagram: "john_doe_instagram",
+      linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
+    },{
+      name: "Cricket",
+      imageUrl: cricket,
+      email: "john.doe@example.com",
+      instagram: "john_doe_instagram",
+      linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
+    },{
+      name: "Cricket",
+      imageUrl: cricket,
+      email: "john.doe@example.com",
+      instagram: "john_doe_instagram",
+      linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
+    },{
+      name: "Cricket",
+      imageUrl: cricket,
+      email: "john.doe@example.com",
+      instagram: "john_doe_instagram",
+      linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
+    },{
+      name: "Cricket",
+      imageUrl: cricket,
+      email: "john.doe@example.com",
+      instagram: "john_doe_instagram",
+      linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
+    },{
+      name: "Cricket",
+      imageUrl: cricket,
+      email: "john.doe@example.com",
+      instagram: "john_doe_instagram",
+      linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
+    },{
+      name: "Cricket",
+      imageUrl: cricket,
+      email: "john.doe@example.com",
+      instagram: "john_doe_instagram",
+      linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
+    },{
+      name: "Cricket",
+      imageUrl: cricket,
       email: "john.doe@example.com",
       instagram: "john_doe_instagram",
       linkedin: "john_doe_linkedin",
@@ -73,17 +153,19 @@ function Sports() {
         <div
           style={{
             position: "absolute",
-            top: "31%",
+            top: "32%",
             left: "50%",
             transform: "translate(-50%, -50%)",
-            fontSize: "16vw",
+            fontSize: "24vw",
             color: "antiquewhite",
-            opacity:'0.7'
+            opacity:'0.7',
+            fontFamily:'lexend zetha',
+            fontWeight:"bold"
           }}
         >
           Sports
         </div>
-        <div className="flex items-center flex-wrap justify-center gap-20 pt-60 pb-20 px-10">
+        <div className="flex items-center flex-wrap justify-center sm:gap-20 pt-72 pb-20 px-10">
           {data.map((member) => (
             <div>
               <TeamCard
