@@ -3,7 +3,8 @@ import "./TeamCard.css";
 import { Gmail } from "@styled-icons/boxicons-logos/Gmail";
 import { Instagram } from "@styled-icons/boxicons-logos/Instagram";
 import { Linkedin } from "@styled-icons/boxicons-logos/Linkedin";
-
+import { Facebook } from "@styled-icons/boxicons-logos";
+import { Twitter } from "@styled-icons/boxicons-logos";
 function TeamCard(props) {
   // console.log(props.image);
   return (
@@ -12,8 +13,17 @@ function TeamCard(props) {
         <h2 className="card-title">{props.name}</h2>
 
         <div className="btn">
-          <a href={"mailto:" + props.gmail}>
-            <Gmail className=" h-8 text-white hover:text-red"></Gmail>
+        <a
+            href={"//" + props.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Instagram className=" h-8 text-white hover:text-pink-400"></Instagram>
+          </a>
+          <a  href={"//" + props.facebook}
+            target="_blank"
+            rel="noopener noreferrer">
+            <Facebook className=" h-8 text-white hover:text-red"></Facebook>
           </a>
           <a
             href={"//" + props.linkedin}
@@ -23,11 +33,11 @@ function TeamCard(props) {
             <Linkedin className=" h-8 text-white hover:text-blue"></Linkedin>
           </a>
           <a
-            href={"//" + props.instagram}
+            href={"//" + props.twitter}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Instagram className=" h-8 text-white hover:text-pink-400"></Instagram>
+            <Twitter className=" h-8 text-white hover:text-pink-400"></Twitter>
           </a>
         </div>
       </div>

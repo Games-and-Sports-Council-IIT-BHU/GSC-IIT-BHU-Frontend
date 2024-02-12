@@ -11,30 +11,40 @@ function Sports() {
       email: "john.doe@example.com",
       instagram: "john_doe_instagram",
       linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
     },{
       name: "Cricket",
       imageUrl: "https://c8.alamy.com/comp/CC2TRA/cricket-player-batting-CC2TRA.jpg",
       email: "john.doe@example.com",
       instagram: "john_doe_instagram",
       linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
     },{
       name: "Cricket",
       imageUrl: "https://c8.alamy.com/comp/CC2TRA/cricket-player-batting-CC2TRA.jpg",
       email: "john.doe@example.com",
       instagram: "john_doe_instagram",
       linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
     },{
       name: "Cricket",
       imageUrl: "https://c8.alamy.com/comp/CC2TRA/cricket-player-batting-CC2TRA.jpg",
       email: "john.doe@example.com",
       instagram: "john_doe_instagram",
       linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
     },{
       name: "Cricket",
       imageUrl: "https://c8.alamy.com/comp/CC2TRA/cricket-player-batting-CC2TRA.jpg",
       email: "john.doe@example.com",
       instagram: "john_doe_instagram",
       linkedin: "john_doe_linkedin",
+      twitter:"twitter",
+      facebook:"facebook"
     },
   ];
 
@@ -68,6 +78,7 @@ function Sports() {
             transform: "translate(-50%, -50%)",
             fontSize: "16vw",
             color: "antiquewhite",
+            opacity:'0.7'
           }}
         >
           Sports
@@ -81,6 +92,8 @@ function Sports() {
                 gmail={member.email}
                 instagram={member.instagram}
                 linkedin={member.linkedin}
+                facebook={member.facebook}
+                twitter={member.twitter}
               />
             </div>
           ))}
