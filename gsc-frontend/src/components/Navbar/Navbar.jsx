@@ -40,7 +40,7 @@ const Navbar = ({ scrolling }) => {
             <div className="flex flex-wrap items-center justify-between ml-5">
               <Link to="/" className="items-center ">
                 <img
-                  src="/assets/gscMain.svg"
+                  src="/assets/gscLogo.png"
                   className="h-[44px] w-[56px] mt-5 mb-4 ml-1"
                   alt="GSC_Logo"
                 />
@@ -161,15 +161,15 @@ const Navbar = ({ scrolling }) => {
         {/* Mobile Navbar */}
         <div className="sticky top-0 z-50">
           <nav
-            className={`smd:hidden bg-[#430D9B] px-2 smd:px-4 font-lexend relative w-screen
+            className={`smd:hidden bg-[#430D9B] px-2 smd:px-4 py-2.5 font-lexend relative w-screen
           `}
             style={navbarStyle}
           >
-            <div className="container flex flex-wrap items-center justify-between ml-[-0.5rem] mt-[-0.75rem] mb-[-1.75rem]">
+            <div className="container flex flex-wrap items-center justify-between mx-auto">
               <Link to="/" className="items-center">
                 <img
-                  src="/assets/gscLogo.svg"
-                  className="mt-3 pl-2"
+                  src="/assets/gscLogo.png"
+                  className="h-12 mr-3 smd:h-10"
                   alt="GSC_logo"
                 />
               </Link>
@@ -183,12 +183,12 @@ const Navbar = ({ scrolling }) => {
               >
                 <button
                   ref={openButton}
-                  className="text-white bg-transparent focus:ring-4 focus:ring-white font-medium rounded-lg text-sm px-5 pt-[1.25rem]"
+                  className="text-white bg-transparent focus:ring-4 focus:ring-white font-medium rounded-lg text-sm px-5 py-2.5"
                   type="button"
                 >
                   <span className="sr-only">Open main menu</span>
                   <svg
-                    className="w-8 h-8 mb-[1.6rem] mr-[-1.5rem]"
+                    className="w-8 h-8"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -211,7 +211,7 @@ const Navbar = ({ scrolling }) => {
                 >
                   <img
                     src="/assets/gscLogo.svg"
-                    className="h-141 w-141 ml-[-0.5rem] mt-[-0.5rem]"
+                    className="h-141 w-141"
                     alt="GSC_logo"
                   />
                   <button
@@ -220,7 +220,7 @@ const Navbar = ({ scrolling }) => {
                       setToggle(false);
                     }}
                     type="button"
-                    className="text-black rounded-lg text-sm p-1.5 absolute top-[1.375rem] right-[1.625rem] inline-flex items-center"
+                    className="text-black rounded-lg text-sm p-1.5 absolute top-[1.375rem] right-2.5 inline-flex items-center"
                   >
                     <img src="/assets/CloseIcon.svg" />
                     <span className="sr-only">Close menu</span>

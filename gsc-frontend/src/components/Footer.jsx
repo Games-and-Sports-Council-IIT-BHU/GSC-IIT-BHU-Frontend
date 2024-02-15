@@ -14,7 +14,7 @@ import instagram from "../images/instagram.png";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#2C2C2C] text-white w-full h-full">
+      <div className="bg-[#2C2C2C] text-white w-full h-[16.5rem]">
         <div className="flex lg:flex-row justify-evenly flex-col">
           <ul className="lg:flex flex-col gap-2 mt-10 hidden">
             <li className="text-2xl font-extrabold">Other Links</li>
@@ -69,7 +69,7 @@ const Footer = () => {
               xyz@gamil.com
             </li>
           </ul>
-          <ul className="flex lg:flex-col text-3xl lg:mt-10 gap-4 flex-row justify-center mt-[1.5rem] pb-[0.5rem]">
+          <ul className="flex lg:flex-col text-3xl lg:mt-10 gap-4 flex-row justify-center mt-[1.5rem]">
             <li className="place-self-center">
               <Link
                 to="https://www.instagram.com/games_and_sports_iitbhu/"
