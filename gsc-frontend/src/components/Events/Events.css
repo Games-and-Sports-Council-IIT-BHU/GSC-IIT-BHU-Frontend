@@ -2,3 +2,12 @@
     background-size: cover;
     background-position: center;
   }
+
+  .bg-events-group {
+    background-image: url('./src/assets/EventsPage/EventsGroup.svg');
+  }
+
+  .bg-events-torch {
+    background-image: url('./src/assets/EventsPage/EventsTorch.svg');
+  }
+  
