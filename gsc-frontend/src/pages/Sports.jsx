@@ -8,6 +8,11 @@ import badminton from "/assets/Badminton/IMG-20240316-WA0056.jpg"
 import basketball from "/assets/Basketball/basketball.jpg"
 import volleyball from "/assets/Volleyball/Volleyb.jpg";
 import weightlifting from "/assets/Weightlifting/Weightlift.jpg";
+// import aquatics from "/assets/Aquatics/Aquatics8.jpg";
+import squash from "/assets/Squash/squash.jpg";
+import tennis from "/assets/Tennis/tennis.jpg";
+import taekwondo from "/assets/Taekwondo/taekwondo.jpg";
+// import atheletics from "/assets/Atheletics/Atheletics4.jpg";
 import { Link } from "react-router-dom";
 function Sports() {
   const [scrolling, setScrolling] = useState(false);
@@ -76,8 +81,8 @@ function Sports() {
 				facebook: "facebook",
 			},
 			{
-				name: "Cricket",
-				imageUrl: cricket,
+				name: "Squash",
+				imageUrl: squash,
 				email: "john.doe@example.com",
 				instagram: "john_doe_instagram",
 				linkedin: "john_doe_linkedin",
@@ -85,8 +90,8 @@ function Sports() {
 				facebook: "facebook",
 			},
 			{
-				name: "Cricket",
-				imageUrl: cricket,
+				name: "Tennis",
+				imageUrl: tennis,
 				email: "john.doe@example.com",
 				instagram: "john_doe_instagram",
 				linkedin: "john_doe_linkedin",
@@ -94,8 +99,8 @@ function Sports() {
 				facebook: "facebook",
 			},
 			{
-				name: "Cricket",
-				imageUrl: cricket,
+				name: "Taekwondo",
+				imageUrl: taekwondo,
 				email: "john.doe@example.com",
 				instagram: "john_doe_instagram",
 				linkedin: "john_doe_linkedin",

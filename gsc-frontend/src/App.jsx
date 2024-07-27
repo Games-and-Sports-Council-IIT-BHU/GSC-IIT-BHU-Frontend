@@ -18,6 +18,8 @@ import Squash from "./pages/Squash";
 import Atheletics from "./pages/Atheletics";
 import Volleyball from "./pages/Volleyball";
 import WeightLifting from "./pages/WeightLifting";
+import Taekwondo from "./pages/Taekwondo";
+import Tennis from "./pages/Tennis";
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
 						<Route path="/football" element={<Football />} />
 						<Route path="/hockey" element={<Hockey />} />
 						<Route path="/squash" element={<Squash />} />
+            <Route path="/tennis" element={<Tennis />} />
+          <Route path="/taekwondo" element={<Taekwondo />} />
 						<Route path="/volleyball" element={<Volleyball />} />
 						<Route path="/weightlifting" element={<WeightLifting />} />
 					</Routes>
