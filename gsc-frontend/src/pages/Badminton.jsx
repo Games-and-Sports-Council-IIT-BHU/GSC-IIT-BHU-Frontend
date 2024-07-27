@@ -2,9 +2,9 @@ import Navbar from "../components/Navbar/Navbar";
 import achieve from "../images/achieve.svg";
 import ContactCard from "../components/ContactCard";
 import CricketHero from "../components/CricketHero";
-import image1 from "/assets/Aquatics/Aquatics3.jpeg";
-import image2 from "/assets/Aquatics/Aquatics4.jpeg";
-import image3 from "/assets/Aquatics/Aquatics5.jpeg";
+import image1 from "/assets/Badminton/PXL_20230311_142732943.jpg";
+import image2 from "/assets/Badminton/IMG-20231018-WA0042.jpg";
+import image3 from "/assets/Badminton/IMG-20231201-WA0016.jpg";
 import ImageCarousel from "../components/CarouselSports";
 
 const Badminton = () => {
@@ -47,7 +47,7 @@ const Badminton = () => {
               </div>
               <div className="h-[360px] w-[296px] bg-[#F4F4F4] border-8 border-[#A2A2A2] rounded-xl relative">
                 <img
-                  src="/assets/Badminton/IMG-20240206-WA0082.jpg"
+                  src="/assets/Badminton/WhatsApp Image 2024-03-18 at 15.11.30.jpeg"
                   className="h-[344px] w-[296px] border-4 border-[#A2A2A2] absolute top-0 left-0"
                   alt="GSC_Logo"
                 />
@@ -67,8 +67,8 @@ const Badminton = () => {
               </div>
               <div className="h-[200px] w-[150px] bg-[#F4F4F4] border-8 border-[#A2A2A2] rounded-xl">
                 <img
-                  src="/assets/Badminton/IMG-20240206-WA0082.jpg"
-                  className="h-[397px] border-4 border-[#A2A2A2]"
+                  src="/assets/Badminton/WhatsApp Image 2024-03-18 at 15.11.30.jpeg"
+                  className="h-[184px]"
                   alt="GSC_Logo"
                 />
               </div>
@@ -118,7 +118,7 @@ const Badminton = () => {
               </div>
               <div className="h-[360px] w-[296px] bg-[#F4F4F4] border-8 border-[#A2A2A2] rounded-xl relative">
                 <img
-                  src="/assets/Badminton/IMG-20240206-WA0082.jpg"
+                  src="/assets/Badminton/IMG-20231201-WA0016.jpg"
                   className="h-[344px] w-[296px] border-4 border-[#A2A2A2] absolute top-0 left-0"
                   alt="GSC_Logo"
                 />
@@ -138,14 +138,14 @@ const Badminton = () => {
           </p>
         </div>
         <div className="sm:flex flex-row items-center gap-28 hidden">
-          <ContactCard image="/assets/Aquatics/Aquatics2.jpeg" />
-          <ContactCard />
-          <ContactCard />
+          <ContactCard name="Mr. ..." position="Coach" image="/assets/Badminton/Coach.jpg" />
+          <ContactCard  />
+          <ContactCard  />
         </div>
         <div className="flex flex-col items-center lg:hidden">
-          <ContactCard image="/assets/Aquatics/Aquatics2.jpeg" />
-          <ContactCard />
-          <ContactCard />
+          <ContactCard name="Mr. ..." position="Coach" image="/assets/Badminton/Coach.jpg" />
+          <ContactCard  />
+          <ContactCard  />
         </div>
       </div>
     </div>
