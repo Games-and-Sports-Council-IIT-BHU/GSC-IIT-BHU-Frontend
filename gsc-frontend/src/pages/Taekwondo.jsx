@@ -2,19 +2,18 @@ import Navbar from "../components/Navbar/Navbar";
 import achieve from "../images/achieve.svg";
 import ContactCard from "../components/ContactCard";
 import CricketHero from "../components/CricketHero";
-import image1 from "/assets/Squash/Arunima bhatnagar squash captain.jpg";
-import image2 from "/assets/Aquatics/Aquatics4.jpeg";
-import image3 from "/assets/Aquatics/Aquatics5.jpeg";
+import Slider_New from "../components/Slider/3dslider";
 import ImageCarousel from "../components/CarouselSports";
+import image1 from "../images/cricket.svg";
+import image2 from "../images/1.jpeg";
 
-const Squash = () => {
-  const images = [`${image1}`, `${image2}`, `${image3}`];
-
+const Taekwondo = () => {
+  const images = [`${image1}`, `${image2}`, `${image1}`];
   return (
     <div className="bg-[#B9B9B9]">
       <Navbar />
       <div style={{ position: "relative", zIndex: "1" }}>
-        <CricketHero sports_name="Squash" />
+        <CricketHero sports_name="Taekwondo" />
       </div>
 
       <div>
@@ -39,18 +38,18 @@ const Squash = () => {
             </div>
             <div className="flex flex-row gap-11 mt-32 mb-16">
               <div className="h-[360px] w-[296px] bg-[#F4F4F4] border-8 border-[#A2A2A2] rounded-xl relative">
-                <img
-                  src="/assets/Squash/squash3.jpeg"
-                  className="h-[344px] border-4 border-[#A2A2A2] absolute top-0 left-0"
-                  alt="GSC_Logo"
-                />
+                {/* <img
+        src=""
+        className="h-[397px] border-4 border-[#A2A2A2] absolute top-0 left-0"
+        alt="GSC_Logo"
+      /> */}
               </div>
               <div className="h-[360px] w-[296px] bg-[#F4F4F4] border-8 border-[#A2A2A2] rounded-xl relative">
-                <img
-                  src="/assets/Squash/squash4.jpeg"
-                  className="h-[344px] border-4 border-[#A2A2A2] absolute top-0 left-0"
-                  alt="GSC_Logo"
-                />
+                {/* <img
+        src=""
+        className="h-[397px] border-4 border-[#A2A2A2] absolute top-0 left-0"
+        alt="GSC_Logo"
+      /> */}
               </div>
             </div>
           </div>
@@ -58,19 +57,18 @@ const Squash = () => {
           <div className="flex flex-col gap-8 sm:hidden text-center ">
             <div className="flex flex-row gap-3 items-center justify-around mt-10 z-20">
               <div className="h-[200px] w-[150px] bg-[#F4F4F4] border-8 border-[#A2A2A2] rounded-xl">
-                <img
-                  src="/assets/Squash/squash3.jpeg"
-                  // className="h-[397px] border-4 border-[#A2A2A2]"
-                  className="h-[184px]"
-                  alt="GSC_Logo"
-                />
+                {/* <img
+                src=""
+                className="h-[397px] border-4 border-[#A2A2A2]"
+                alt="GSC_Logo"
+              /> */}
               </div>
               <div className="h-[200px] w-[150px] bg-[#F4F4F4] border-8 border-[#A2A2A2] rounded-xl">
-                <img
-                src="/assets/Squash/squash4.jpeg"
-                className="h-[184px] border-4 border-[#A2A2A2]"
+                {/* <img
+                src=""
+                className="h-[397px] border-4 border-[#A2A2A2]"
                 alt="GSC_Logo"
-              />
+              /> */}
               </div>
             </div>
             <p className="font-lexend text-[10px] text-[#000000] my-auto mx-auto px-[35px] justify-center items-center flex">
@@ -87,45 +85,13 @@ const Squash = () => {
         </div>
       </div>
 
-      <div className="mt-10 mb-10">
+      <div className="mt-10 mb-32">
         <div className="bg-[#B9B9B9] flex flex-col items-center justify-center gap-10">
           <p className="w-auto sm:text-[100px] text-[30px] text-white opacity-50 font-bold font-lexend text-center tracking-wide absolute z-10 mb-[330px] sm:mt-0 mt-20">
             Achievements
           </p>
 
-          <div className="absolute z-10 items-center justify-center mt-40 hidden lg:block">
-            <div className="flex flex-row gap-11 mb-16 items-center justify-center">
-              <div className="h-[360px] w-[296px] bg-[#F4F4F4] border-8 border-[#A2A2A2] rounded-xl relative">
-                <img
-                  src="/assets/Squash/squash1.jpeg"
-                  className="h-[344px] border-4 border-[#A2A2A2] absolute top-0 left-0"
-                  alt="GSC_Logo"
-                />
-              </div>
-              <div className="h-[360px] w-[296px] bg-[#F4F4F4] border-8 border-[#A2A2A2] rounded-xl relative">
-                {/* <img
-                  src="/assets/Squash/squash1.jpeg"
-                  className="h-[344px] border-4 border-[#A2A2A2] absolute top-0 left-0"
-                  alt="GSC_Logo"
-                /> */}
-              </div>
-              <div className="h-[360px] w-[296px] bg-[#F4F4F4] border-8 border-[#A2A2A2] rounded-xl relative">
-                {/* <img
-                  src="/assets/Squash/squash1.jpeg"
-                  className="h-[344px] border-4 border-[#A2A2A2] absolute top-0 left-0"
-                  alt="GSC_Logo"
-                /> */}
-              </div>
-              <div className="h-[360px] w-[296px] bg-[#F4F4F4] border-8 border-[#A2A2A2] rounded-xl relative">
-                {/* <img
-                  src=""
-                  className="h-[344px] border-4 border-[#A2A2A2] absolute top-0 left-0"
-                  //   alt="GSC_Logo"
-                /> */}
-              </div>
-            </div>
-          </div>
-
+          <Slider_New />
           <ImageCarousel images={images} />
           <img src={achieve} className="relative z-1" />
         </div>
@@ -138,42 +104,18 @@ const Squash = () => {
           </p>
         </div>
         <div className="sm:flex flex-row items-center gap-28 hidden">
-          <ContactCard
-            image="/assets/Squash/Arunima bhatnagar squash captain.jpg"
-            position="Captain"
-            name="Arunima bhatnagar"
-          />
-          <ContactCard
-            image="/assets/Squash/Dipendra Singh squash coach.jpeg"
-            position="Coach"
-            name="Dipendra Singh"
-          />
-          <ContactCard
-            image="/assets/Squash/Hemank Vats squash captain.jpg"
-            position="Captain"
-            name="Hemank Vats"
-          />
+          <ContactCard image="/assets/Taekwondo/Divyanshu Bharti taekwondo captain.jpeg" position="Captain" name="Divyanshu Bharti"/>
+          {/* <ContactCard /> */}
+          {/* <ContactCard /> */}
         </div>
         <div className="flex flex-col items-center lg:hidden">
-          <ContactCard
-            image="/assets/Squash/Arunima bhatnagar squash captain.jpg"
-            position="Captain"
-            name="Arunima bhatnagar"
-          />
-          <ContactCard
-            image="/assets/Squash/Dipendra Singh squash coach.jpeg"
-            position="Coach"
-            name="Dipendra Singh"
-          />
-          <ContactCard
-            image="/assets/Squash/Hemank Vats squash captain.jpg"
-            position="Captain"
-            name="Hemank Vats"
-          />
+          <ContactCard image="/assets/Taekwondo/Divyanshu Bharti taekwondo captain.jpeg" position="Captain" name="Divyanshu Bharti"/>
+          {/* <ContactCard /> */}
+          {/* <ContactCard /> */}
         </div>
       </div>
     </div>
   );
 };
 
-export default Squash;
+export default Taekwondo;
